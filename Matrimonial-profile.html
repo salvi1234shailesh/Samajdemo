@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Business Directory   - Medilab Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+   
+  <link href="assets/css/dataTables.dataTables.min.css" rel="stylesheet">
+  <link href="assets/css/dataTables.bootstrap5.css" rel="stylesheet">
+
+   
+  ======================================================== -->
+</head>
+
+<body>
+
+ <!-- ======= Top Bar ======= -->
+ <div id="topbar" class="d-flex align-items-center fixed-top">
+  <div class="container d-flex justify-content-between">
+    <div class="contact-info d-flex align-items-center">
+      <i class="bi bi-envelope"></i> <a href="mailto:Shailusalvi07@gmail.com">Shailusalvi07@gmail.com</a>
+      <i class="bi bi-phone"></i> +91 7276 7312 70
+    </div>
+    <div class="d-none d-lg-flex social-links align-items-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+    </div>
+  </div>
+</div>
+
+ <!-- ======= Header ======= -->
+ <header id="header" class="fixed-top">
+  <div class="container d-flex align-items-center">
+
+    <h1 class="logo me-auto"><a href="index.html">Kumbhar Samaj</a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+       
+        <li class="dropdown"><a href="#"><span>Community Services</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+
+            <li><a href="Matrimonial-profile.html">Matrimonial</a></li>
+            <li><a href="Job-Career.html">Job-Career</a></li>
+            
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#"><span>Directory </span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+
+            <li><a href="Bussiness-Directory.html">Bussiness</a></li>
+            <li><a href="Community-Directory.html">Community</a></li>
+            
+          </ul>
+        </li>
+        
+        <li><a class="nav-link scrollto" href="#doctors">Achieves   </a></li> 
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+     
+
+  </div>
+</header><!-- End Header -->
+
+
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Business Directory</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Business Directory</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs Section -->
+
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container text-center" >
+          <h1>Business Directory</h1>
+          
+          <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
+        </div>
+      </section><!-- End Hero -->
+
+
+
+
+      
+
+     <!-- ======= Appointment Section ======= -->
+     <section id="appointment" class="appointment section-bg">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Make an Create Business  </h2>
+            </div>
+  
+          <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+             
+                <p>Profile Create/Uploaded by  </p>
+                 
+            <div class="row">
+                <div class="col-md-4 form-group mt-3">
+                    
+                    <select class="form-control"  type="text" name="matrimonial_profilecreated" > 
+                        <option value="" disabled selected hidden> Please selected Profile Create</option>
+                    <option value="Self">Self</option>
+                    <option value="Daughter">Daughter</option>
+                    <option value="Son">Son</option>
+                    <option value="Brother">Brother</option>
+                    <option value="Sister">Sister</option>
+                    <option value="Relative">Relative</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Parents">Parents</option>
+                    <option value="Guardians">Guardians</option>
+                    </select>
+                  <div class="validate"></div>
+                </div>
+                 
+                 
+              </div>
+<p>Kundali Deatils</p>
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Birth Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Date Of Birth" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Rashi" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Place of  Birth" data-rule="email" data-msg="Please enter a valid email">
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Tal" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                    <div class="validate"></div>
+                  </div>
+                  <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="District" data-rule="email" data-msg="Please enter a valid email">
+                    <div class="validate"></div>
+                  </div>
+                </div>
+
+
+                <p>Profile Personal Details</p>
+              <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_profilewho" > 
+                        <option value="" disabled selected hidden> Please selected Profile Bride/Groom</option>
+                    <option value="Bride">Bride</option>
+                    <option value="Groom">Groom</option>
+                     
+                    </select>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Name  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_gender" > 
+                        <option value="" disabled selected hidden> Please selected Gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                      
+                      </select>                   <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Email" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_height" > 
+                        <option value="" >Please selected Height</option>
+                                <option value="4.0" >4ft </option>
+                              <option value="4.1" >4ft 1in </option>
+                              <option value="4.2" >4ft 2in </option>
+                              <option value="4.3" >4ft 3in </option>
+                              <option value="4.4" >4ft 4in </option>
+                              <option value="4.5" >4ft 5in </option>
+                              <option value="4.6" >4ft 6in </option>
+                              <option value="4.7" >4ft 7in </option>
+                              <option value="4.8" >4ft 8in </option>
+                              <option value="4.9" >4ft 9in </option>
+                              <option value="4.10" >4ft 10in </option>
+                              <option value="4.11" >4ft 11in </option>
+                              <option value="5.0" >5ft </option>
+                              <option value="5.1" >5ft 1in </option>
+                              <option value="5.2" >5ft 2in </option>
+                              <option value="5.3" >5ft 3in </option>
+                              <option value="5.4" >5ft 4in </option>
+                              <option value="5.5" >5ft 5in </option>
+                              <option value="5.6" >5ft 6in </option>
+                              <option value="5.7" >5ft 7in </option>
+                              <option value="5.8" >5ft 8in </option>
+                              <option value="5.9" >5ft 9in </option>
+                              <option value="5.10" >5ft 10in </option>
+                              <option value="5.11" >5ft 11in </option>
+                               <option value="6.0" >6ft </option>
+                              <option value="6.1" >6ft 1in </option>
+                              <option value="6.2" >6ft 2in </option>
+                              <option value="6.3" >6ft 3in </option>
+                              <option value="6.4" >6ft 4in </option>
+                              <option value="6.5" >6ft 5in </option>
+                              <option value="6.6" >6ft 6in </option>
+                              <option value="6.7" >6ft 7in </option>
+                              <option value="6.8" >6ft 8in </option>
+                              <option value="6.9" >6ft 9in </option>
+                              <option value="6.10" >6ft 10in </option>
+                              <option value="6.11" >6ft 11in </option>
+                              <option value="7.1" >7ft 1in </option>
+                              <option value="7.2" >7ft 2in </option>
+                              <option value="7.3" >7ft 3in </option>
+                              <option value="7.4" >7ft 4in </option>
+                              <option value="7.5" >7ft 5in </option>
+                              <option value="7.6" >7ft 6in </option>
+                              <option value="7.7" >7ft 7in </option>
+                              <option value="7.8" >7ft 8in </option>
+                              <option value="7.9" >7ft 9in </option>
+                              <option value="7.10" >7ft 10in </option>
+                              <option value="7.11" >7ft 11in </option>
+                            </select>
+                   <div class="validate"></div>
+                </div>
+              </div>
+
+              
+
+              <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Age" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_bloodgroup" > 
+                        <option value="" disabled selected hidden> Please selected Blood Group </option>
+                    <option value="O-">O-</option>
+                    <option value="O+">O+</option>
+                    <option value="A-">A-</option>
+                    <option value="A+">O-</option>
+                  
+                    <option value="B-">B-</option>
+                    <option value="B-">B+</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    
+                    </select>                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Weight" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Religion" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Caste" data-rule="email" data-msg="Please enter a valid email">
+                              <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="Community-married" required> 
+                        <option value="Unmarried">Unmarried</option>
+                          <option value="Divorce">Divorce</option>
+                          <option value="Seperated">Seperated</option>
+                          <option value="Widow">Widow</option>
+                  </select>                              <div class="validate"></div>
+                </div>
+                 
+              </div>
+ 
+               
+
+              
+             
+  
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Bride/Groom details"></textarea>
+              <div class="validate"></div>
+            </div>
+
+
+            <p>Eduction & Occupation </p>
+            <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Eduction" data-rule="email" data-msg="Please enter a valid email">
+                  <div class="validate"></div>
+                </div>
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                   
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Occupation" data-rule="email" data-msg="Please enter a valid email">
+                     
+                              <div class="validate"></div>
+                </div>
+
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+ 
+                    <input type="email" class="form-control" name="email" id="email" placeholder=" Bride/Groom Salary Income" data-rule="email" data-msg="Please enter a valid email">
+                              <div class="validate"></div>
+                </div>
+                 
+              </div>
+
+               
+ 
+ 
+               
+
+              <div class="row"> 
+             
+  
+            
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom JOb city" data-rule="email" data-msg="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Job tal" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validate"></div>
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Job District " data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validate"></div>
+              </div>
+               
+            </div>
+            <p>Bride/Groom Expectation & About you</p>
+
+            <div class="row">
+                 
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Bride/Groom Description for Expectation "></textarea>
+                  <div class="validate"></div>
+                </div>
+                 
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                   
+                    <textarea class="form-control" name="message" rows="5" placeholder="Bride/Groom Description About You"></textarea>                     
+                              <div class="validate"></div>
+                </div>
+
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+ 
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Bride/Groom Bride/Groom Salary Income" data-rule="email" data-msg="Please enter a valid email">
+                              <div class="validate"></div>
+                </div>
+                 
+              </div>
+
+
+              <p>Profile Family  Details</p>
+              <div class="row">
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Father Name  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Mother Name  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Father Phone  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                    <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="row">
+                 
+                 
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_height" > 
+                        <option value="" >Please selected Brother</option>
+                                <option value="0" >0 </option>
+                              <option value="1" >1 </option>
+                              <option value="2" >2 </option>
+                              <option value="3" >3 </option>
+                              <option value="4" >4 </option>
+                              
+                            </select>
+                   <div class="validate"></div>
+                </div>
+
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <select class="form-control"  type="text" name="matrimonial_height" > 
+                        <option value="" >Please selected Sister</option>
+                                <option value="0" >0 </option>
+                              <option value="1" >1 </option>
+                              <option value="2" >2 </option>
+                              <option value="3" >3 </option>
+                              <option value="4" >4 </option>
+                              
+                            </select>
+                   <div class="validate"></div>
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Bride/Groom Mother Phone  " data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                     
+                   <div class="validate"></div>
+                </div>
+              </div>
+
+               
+
+
+
+
+
+
+
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your Create Job request has been sent successfully. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Make an Create Business Directory</button></div>
+          </form>
+  
+        </div>
+      </section><!-- End Appointment Section -->
+
+ 
+
+      <section id="doctors" class="doctors">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Recents Updated Business </h2>
+           </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Medical Officer</span>
+                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Anesthesiologist</span>
+                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>Cardiology</span>
+                  <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start">
+                
+                <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Neurosurgeon</span>
+                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Doctors Section -->
+
+      
+      <section id="services" class="services">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>All  Updated Jobs table Wise</h2>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-12 col-md-6 d-flex align-items-stretch">
+                
+                <table id="example" class="table table-striped" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                       
+                        <tr>
+                            <td>Jena Gaines</td>
+                            <td>Office Manager</td>
+                            <td>London</td>
+                            <td>30</td>
+                            <td>2008-12-19</td>
+                            <td>$90,560</td>
+                        </tr>
+                        <tr>
+                            <td>Quinn Flynn</td>
+                            <td>Support Lead</td>
+                            <td>Edinburgh</td>
+                            <td>22</td>
+                            <td>2013-03-03</td>
+                            <td>$342,000</td>
+                        </tr>
+                        <tr>
+                            <td>Charde Marshall</td>
+                            <td>Regional Director</td>
+                            <td>San Francisco</td>
+                            <td>36</td>
+                            <td>2008-10-16</td>
+                            <td>$470,600</td>
+                        </tr>
+                        <tr>
+                            <td>Haley Kennedy</td>
+                            <td>Senior Marketing Designer</td>
+                            <td>London</td>
+                            <td>43</td>
+                            <td>2012-12-18</td>
+                            <td>$313,500</td>
+                        </tr>
+                        <tr>
+                            <td>Tatyana Fitzpatrick</td>
+                            <td>Regional Director</td>
+                            <td>London</td>
+                            <td>19</td>
+                            <td>2010-03-17</td>
+                            <td>$385,750</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Silva</td>
+                            <td>Marketing Designer</td>
+                            <td>London</td>
+                            <td>66</td>
+                            <td>2012-11-27</td>
+                            <td>$198,500</td>
+                        </tr>
+                        <tr>
+                            <td>Paul Byrd</td>
+                            <td>Chief Financial Officer (CFO)</td>
+                            <td>New York</td>
+                            <td>64</td>
+                            <td>2010-06-09</td>
+                            <td>$725,000</td>
+                        </tr>
+                        <tr>
+                            <td>Gloria Little</td>
+                            <td>Systems Administrator</td>
+                            <td>New York</td>
+                            <td>59</td>
+                            <td>2009-04-10</td>
+                            <td>$237,500</td>
+                        </tr>
+                        <tr>
+                            <td>Bradley Greer</td>
+                            <td>Software Engineer</td>
+                            <td>London</td>
+                            <td>41</td>
+                            <td>2012-10-13</td>
+                            <td>$132,000</td>
+                        </tr>
+                        <tr>
+                            <td>Dai Rios</td>
+                            <td>Personnel Lead</td>
+                            <td>Edinburgh</td>
+                            <td>35</td>
+                            <td>2012-09-26</td>
+                            <td>$217,500</td>
+                        </tr>
+                        <tr>
+                            <td>Jenette Caldwell</td>
+                            <td>Development Lead</td>
+                            <td>New York</td>
+                            <td>30</td>
+                            <td>2011-09-03</td>
+                            <td>$345,000</td>
+                        </tr>
+                         
+                       
+                     
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                            <th>Start date</th>
+                            <th>Salary</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+  
+            
+  
+             
+  
+             
+  
+          </div>
+  
+        </div>
+      </section><!-- End Services Section -->
+
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h3>Kumbhar samaj</h3>
+          <p>
+            32/5,sec 28,Ganganagar,Akurdi,<br>Pimpri-Chinchawad,  Pune 411044<br><br>
+            <strong>Phone:</strong> +91 7276 7312 70<br>
+            <strong>Email:</strong> Shailusalvi07@gmail.com<br>
+          </p>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Join Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-md-flex py-4">
+
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Shailesh Technologies</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+        Designed by <a href="https://bootstrapmade.com/">Shailesh Technologies</a>
+      </div>
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+ 
+  <script>
+    	
+new DataTable('#example');
+  </script>
+
+</body>
+
+</html>
